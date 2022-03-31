@@ -12,6 +12,8 @@ public class Arraylist {
     name.add("Suvarna");
     name.add("Akshada");
     name.add("Manisha");   
+    
+   // name.remove("Manisha");
     System.out.println("Names are \n"+name);
     
     name.add(1, "Sakshi");///when you add element purtiular position
@@ -35,8 +37,16 @@ public class Arraylist {
     a1.add("Rahul");
     
     System.out.println("Male are \n"+a1);
-    a1.addAll(name);
-    System.out.println(a1);////if you add other collenction element
+   // a1.addAll(name);
+    //System.out.println(a1);////if you add other collenction element
+    
+    ArrayList<String> a2 = new  ArrayList(a1);/////add element of other arraylist
+    a2.add("pooja");
+    a2.add("krushnali");
+    a2.add("samiksha");
+    a2.add("shital");
+    
+    System.out.println("Array list \n "+ a2);
 	}
 
 }
