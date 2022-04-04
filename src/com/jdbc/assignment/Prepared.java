@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class Prepared {
+
 	
 	private String insertData = "insert into User values(?,?,?,?);";
 	
