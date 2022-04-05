@@ -36,6 +36,7 @@ public class FileOutputStreamExample {
 	
 	while((i = fin.read())!= -1) {
 		System.out.print((char)i);
+		
 	}
 	
 } catch (Exception e) {
