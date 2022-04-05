@@ -10,6 +10,7 @@ public class Prepared {
 	
 	private String insertData = "insert into User values(?,?,?,?);";
 	
+///update the partucular data
 	private String update = "update User set name =? where id = ?;";
 	
 	public void insertRecord() {
